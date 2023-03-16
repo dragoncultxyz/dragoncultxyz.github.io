@@ -10,10 +10,9 @@ https://dragoncult.xyz to explore.
 $XYZ token is mintable and burnable ERC20 token. It can be minted only by treasury contract, but can be burned by the owner. 
 The supply set by formula: 
 ```
-supply = usdt / price
+supply = treasury_assets_value / cult_swap_price
 ``` 
-which *usdt* is liquidity in treasury and *price* is price in cult swap.
-By the same formula: *price = usdt / supply* this mean price will increase if *usdt* increase or *supply* decrease.
+By the same formula: *cult_swap_price = treasury_assets_value / supply* this mean price will increase if *treasury_assets_value* increase or *supply* decrease.
 
 ## Distribution of $XYZ Token
 
@@ -22,7 +21,7 @@ By the same formula: *price = usdt / supply* this mean price will increase if *u
 Every 24 hours 30% / 365 = 0.082% XYZ will be minted based on existing supply. 1/3 transfered to cult free claim, 2/3 transfered to cult vault. 
 Distribution percentage may change later, after vote by nft implemented. 
 
-After alpha test over, the percentage will be reduced to 14% (7%/7% for daily reward/vault reward)
+After alpha test over, the percentage will be reduced from 30% to 14% (7%/7% for daily reward/vault reward)
 
 ## Price of $XYZ Token
 Price of $XYZ token soft pegged to assets value within treasury. In theory if treasury value always increase, the price always increase.
@@ -37,7 +36,7 @@ Treasury value ⬇️ on:
 - cult only $XYZ daily claim
 - reward on cult only vault
 
-Protocol designed to ensure treasury increase greater than decrease.
+Protocol designed to ensure value increase > value decrease.
 
 ## Requirement to Become Cult Member
 To mint membership NFT, user need to deposit 1000 $CFX to NFT contract. User can withdraw his deposits by burning the NFT. There are 14 days for burn function to be enabled, and 2 days to withdraw $CFX.
