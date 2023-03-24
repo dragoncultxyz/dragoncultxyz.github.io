@@ -62,6 +62,11 @@ Every cult member also can do this arbitrage without bot, by doing the steps abo
 - have 1000 $CFX staked to mint cult nft
 - leave the cult by burn the nft. User will receive 1000 $CFX back
 
+## What To Do as Ordinary User
+- buy $XYZ in swappi
+- get XYZ-USDT LP token from swappi
+- stake on cult vault (opened to public)
+
 ## What To Do as Cult Member
 - claim free $XYZ every 24 hour
 - trade $XYZ in cult-only swap. it is cheaper than swappi
