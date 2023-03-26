@@ -72,3 +72,5 @@ Every cult member also can do this arbitrage without bot, by doing the steps abo
 - trade $XYZ in cult-only swap. it is cheaper than swappi
 - stake in cult-only vault for high APY
 - calling all $CFX believer to join our cult!
+
+Current version 0.9-alpha
