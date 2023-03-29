@@ -71,5 +71,6 @@ Every cult member also can do this arbitrage without bot, by doing the steps abo
 - claim free $XYZ every 24 hour
 - trade $XYZ in cult-only swap. it is cheaper than swappi
 - stake in cult-only vault for high APY
+- attach avatar on your NFT
 - calling all $CFX believer to join our cult!
 
