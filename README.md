@@ -19,7 +19,7 @@ By the same formula: *cult_swap_price = treasury_assets_value / supply* this mea
 ![meta-chart](https://user-images.githubusercontent.com/127600210/225186230-7cdcc358-08b0-469a-a685-c08f6491dd56.png)
 
 Every 24 hours 30% / 365 = 0.082% XYZ will be minted based on existing supply. 1/3 transfered to cult free claim, 2/3 transfered to cult vault. 
-Distribution percentage may change later, after vote by nft implemented. 
+Distribution percentage may change later, as DAO decision. 
 
 After alpha test over, the percentage will be reduced from 30% to 14% (7%/7% for daily reward/vault reward)
 
@@ -31,10 +31,14 @@ Treasury value ⬆️ on:
 - bought $XYZ got burned
 - trading fee from cult-only swap to treasury
 - arbitrage profit between cult-only swap & swappi
+- LP token staked in vault
+- $USDT locked in cult swap
 
 Treasury value ⬇️ on:
 - cult only $XYZ daily claim
 - reward on cult only vault
+- LP token unstaked from vault
+- $USDT unlocked from cult swap
 
 Protocol designed to ensure value increase > value decrease.
 
@@ -63,7 +67,7 @@ Every cult member also can do this arbitrage without bot, by doing the steps abo
 - leave the cult by burn the nft. User will receive 1000 $CFX back
 
 ## What To Do as Ordinary User
-- buy $XYZ in swappi
+- buy $XYZ in swappi, hold or...
 - get XYZ-USDT LP token from swappi
 - stake on cult vault (opened to public)
 
